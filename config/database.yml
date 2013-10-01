@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ibacca_dev
+  pool: 5
+  username: mayoa
+  password:
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ibacca_test
+  pool: 5
+  username: mayoa
+  password:

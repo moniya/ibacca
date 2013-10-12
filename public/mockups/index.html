@@ -1,9 +1,76 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Ibacca</title>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <meta name="viewport" content=" width=device-width" />
   <link rel="stylesheet" type="text/css" href="/assets/application.css">
 </head>
 <body>
-  Welcome!
+  <nav class="topbar">
+    <ul  id="nav" class="grid">
+      <li class="grid__item  two-sixths">
+        <h1 class="gamma  topbar__logo"><a href="#home">Ibacca</a></h1>
+        <a href="#nav" class="topbar__jump">jump</a>
+      </li>
+      <li class="grid__item  four-sixths">
+        <ul class="search-plus-menu  nav" class="grid">
+          <li class="grid__item  one-half">
+            <input type="search" class="topbar__search">
+          </li>
+          <li class="grid__item  one-half">
+            <ul class="nav  topbar__menu">
+              <li  class="topbar__menu-item"><a href="#Home">Home</a></li>
+              <li  class="topbar__menu-item"><a href="#About">Profile</a></li>
+              <li><a href="#" class="topbar__back">back</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="grid">
+      <section class="grid__item  one-whole">
+        <h1 class="delta">Posts</h1>
+      </section>
+
+      <section class="grid__item  one-whole  desk-two-thirds  entries">
+        <article class="islet  media  topic">
+          <img src="/assets/mock/2.jpg" width="40px" class="media__img  img-sphere" />
+          <div class="media__body">
+            <div class="author"><strong>Ada Rose</strong></div>
+            <div class="content">
+              <a href="" class="ui-link">
+              With the phone and computer connected to my private network, I start the
+application normally using `rails server`, and access it on the phone with
+the IP address assigned to the computer.
+
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="islet  media  topic">
+          <img src="/assets/mock/2.jpg" width="40px" class="media__img img-sphere" />
+          <div class="media__body">
+            <div class="author"><strong>Ada Rose</strong></div>
+            <div class="content">
+              <a href="" class="ui-link">Gravatar is short for Globally Recognized Avatar, and is a free Internet application</a>
+            </div>
+          </div>
+        </article>
+        <article class="islet  media  topic">
+          <img src="/assets/mock/2.jpg" width="40px" class="media__img img-sphere" />
+          <div class="media__body">
+            <div class="author"><strong>Ada Rose</strong></div>
+            <div class="content">
+              <a href="" class="ui-link">Gravatar is short for Globally Recognized Avatar, and is a free Internet application</a>
+
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
 </body>
 </html>
